@@ -21,7 +21,7 @@ class SeedNycTestingCityAndEvent extends Migration
             'name_last'  => 'User',
             'email'      => 'test@madebyfieldwork.com',
             'password'   => 'secret',
-        ])
+        ]);
 
         $city = City::create([
             'name' => 'New York',
