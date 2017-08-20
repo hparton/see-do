@@ -16,6 +16,13 @@ class SeedNycTestingCityAndEvent extends Migration
      */
     public function up()
     {
+        User::create([
+            'name_first' => 'Test',
+            'name_last'  => 'User',
+            'email'      => 'test@madebyfieldwork.com',
+            'password'   => 'secret',
+        ])
+
         $city = City::create([
             'name' => 'New York',
             'iata' => 'nyc',
