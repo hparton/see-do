@@ -17,7 +17,7 @@ class EventTableSeeder extends Seeder
 
         Event::create([
             'title'           => 'Northern Soul: The Film',
-            'time_start'      => date("Y") . '-10-30-19-00-00',
+            'time_start'      => date("Y") . '-10-01-19-00-00',
             'time_end'        => date("Y") . '-10-30-22-30-00',
             'content'         => 'Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum link style auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget Link style sem nec elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.',
             'venue'           => '70 Oxford Street, M1 5NH',
@@ -28,7 +28,7 @@ class EventTableSeeder extends Seeder
 
         Event::create([
             'title'           => 'CoderDojo at The Sharp Project',
-            'time_start'      => date("Y") . '-10-30-19-00-00',
+            'time_start'      => date("Y") . '-10-01-19-00-00',
             'time_end'        => date("Y") . '-10-30-22-30-00',
             'content'         => 'Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum link style auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget Link style sem nec elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.',
             'venue'           => '70 Oxford Street, M1 5NH',
@@ -39,7 +39,7 @@ class EventTableSeeder extends Seeder
 
         Event::create([
             'title'           => 'Design How Talks',
-            'time_start'      => date("Y") . '-10-30-19-00-00',
+            'time_start'      => date("Y") . '-10-01-19-00-00',
             'time_end'        => date("Y") . '-10-30-22-30-00',
             'content'         => 'Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum link style auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget Link style sem nec elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.',
             'venue'           => '70 Oxford Street, M1 5NH',
@@ -50,7 +50,7 @@ class EventTableSeeder extends Seeder
 
         Event::create([
             'title'           => 'Loz’s Birthday Party',
-            'time_start'      => date("Y") . '-10-30-19-00-00',
+            'time_start'      => date("Y") . '-10-01-19-00-00',
             'time_end'        => date("Y") . '-10-30-22-30-00',
             'content'         => 'Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum link style auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget Link style sem nec elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.',
             'venue'           => '70 Oxford Street, M1 5NH',
@@ -61,7 +61,7 @@ class EventTableSeeder extends Seeder
 
         Event::create([
             'title'           => 'Introduction to Arduino',
-            'time_start'      => date("Y") . '-10-30-19-00-00',
+            'time_start'      => date("Y") . '-10-01-19-00-00',
             'time_end'        => date("Y") . '-10-30-22-30-00',
             'content'         => 'Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum link style auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget Link style sem nec elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.',
             'venue'           => '70 Oxford Street, M1 5NH',
@@ -72,7 +72,7 @@ class EventTableSeeder extends Seeder
 
         Event::create([
             'title'           => 'Made You Look Documentary a Film About the Digital Age',
-            'time_start'      => date("Y") . '-10-30-19-00-00',
+            'time_start'      => date("Y") . '-10-01-19-00-00',
             'time_end'        => date("Y") . '-10-30-22-30-00',
             'content'         => 'Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum link style auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget Link style sem nec elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.',
             'venue'           => '70 Oxford Street, M1 5NH',
@@ -83,7 +83,7 @@ class EventTableSeeder extends Seeder
 
         Event::create([
             'title'           => 'CoderDojo at The Sharp Project Hackday',
-            'time_start'      => date("Y") . '-10-30-19-00-00',
+            'time_start'      => date("Y") . '-10-01-19-00-00',
             'time_end'        => date("Y") . '-10-30-22-30-00',
             'content'         => 'Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum link style auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget Link style sem nec elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.',
             'venue'           => '70 Oxford Street, M1 5NH',
@@ -94,7 +94,7 @@ class EventTableSeeder extends Seeder
 
         Event::create([
             'title'           => 'Film How - Northern Soul / Factory',
-            'time_start'      => date("Y") . '-10-30-19-00-00',
+            'time_start'      => date("Y") . '-10-01-19-00-00',
             'time_end'        => date("Y") . '-10-30-22-30-00',
             'content'         => 'Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum link style auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget Link style sem nec elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.',
             'venue'           => '70 Oxford Street, M1 5NH',
