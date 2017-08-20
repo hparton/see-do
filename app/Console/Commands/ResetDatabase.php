@@ -13,7 +13,7 @@ class ResetDatabase extends Command
      *
      * @var string
      */
-    protected $signature = 'db:reset';
+    protected $signature = 'db:reset {--seed}';
 
     /**
      * The console command description.
@@ -55,7 +55,9 @@ class ResetDatabase extends Command
 	$this->call('migrate');
 
 	if ($this->option('seed')) {
-		$this->call('db:seed');
+		$this->call('db:seed', [
+            '--class' => 'EventTableSeeder'
+        ]);
 	}
 
 	$this->call('migrate');
