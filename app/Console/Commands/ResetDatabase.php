@@ -13,7 +13,7 @@ class ResetDatabase extends Command
      *
      * @var string
      */
-    protected $signature = 'db:reset {--seed}';
+    protected $signature = 'db:reset';
 
     /**
      * The console command description.
@@ -41,25 +41,21 @@ class ResetDatabase extends Command
     {
         $tables = [];
 
-	DB::statement('SET FOREIGN_KEY_CHECKS=0');
+    	DB::statement('SET FOREIGN_KEY_CHECKS=0');
 
-	foreach (DB::select('SHOW TABLES') as $k => $v) {
-		$tables[] = array_values((array)$v)[0];
-	}
+    	foreach (DB::select('SHOW TABLES') as $k => $v) {
+    		$tables[] = array_values((array)$v)[0];
+    	}
 
-	foreach ($tables as $table) {
-		Schema::drop($table);
-		echo "Table " . $table . " has been dropped." . PHP_EOL;
-	}
+    	foreach ($tables as $table) {
+    		Schema::drop($table);
+    		echo "Table " . $table . " has been dropped." . PHP_EOL;
+    	}
 
-	$this->call('migrate');
+    	$this->call('migrate');
 
-	if ($this->option('seed')) {
-		$this->call('db:seed', [
+    	$this->call('db:seed', [
             '--class' => 'EventTableSeeder'
         ]);
-	}
-
-	$this->call('migrate');
     }
 }
